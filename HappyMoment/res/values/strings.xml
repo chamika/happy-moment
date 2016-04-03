@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">958589577502263</string>
+    <string name="app_name">Happy Moment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_message1">App will directly communicate with facebook servers\n\nNo photo or a link will expose to a third party</string>
+
+    <string name="action_pin">Pin</string>
+    <string name="action_unpin">Remove Pin</string>
+    <string name="action_view_fb">View in Facebook</string>
+    <string name="action_wallpaper">Set as wallpaper</string>
+</resources>

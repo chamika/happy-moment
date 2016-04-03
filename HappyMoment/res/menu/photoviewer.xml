@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.chamika.happymoment.MainActivity" >
+
+    <item
+        android:id="@+id/action_pin"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_pin"/>
+    <item
+        android:id="@+id/action_unpin"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_unpin"/>
+    <item
+        android:id="@+id/action_view_fb"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_view_fb"/>
+    <item
+        android:id="@+id/action_wallpaper"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_wallpaper"/>
+    
+<!--     <item -->
+<!--         android:id="@+id/menu_main" -->
+<!--         android:icon="@drawable/ic_launcher" -->
+<!--         android:showAsAction="always" -->
+<!--         android:title="@string/app_name" -->
+<!--         android:visible="true"> -->
+<!--         <menu> -->
+<!--             <item -->
+<!--                 android:id="@+id/action_pin" -->
+<!--                 android:icon="@drawable/ic_launcher" -->
+<!--                 android:orderInCategory="100" -->
+<!--                 android:showAsAction="ifRoom|withText" -->
+<!--                 android:title="@string/action_pin"/> -->
+<!--             <item -->
+<!--                 android:id="@+id/action_unpin" -->
+<!--                 android:orderInCategory="100" -->
+<!--                 android:showAsAction="never" -->
+<!--                 android:title="@string/action_unpin"/> -->
+<!--             <item -->
+<!--                 android:id="@+id/action_view_fb" -->
+<!--                 android:orderInCategory="100" -->
+<!--                 android:showAsAction="never" -->
+<!--                 android:title="@string/action_view_fb"/> -->
+<!--             <item -->
+<!--                 android:id="@+id/action_wallpaper" -->
+<!--                 android:orderInCategory="100" -->
+<!--                 android:showAsAction="never" -->
+<!--                 android:title="@string/action_wallpaper"/> -->
+<!--         </menu> -->
+<!--     </item> -->
+
+</menu>

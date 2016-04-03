@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.chamika.happymoment.MainActivity" >
+
+    <!-- <item -->
+    <!-- android:id="@+id/action_settings" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:showAsAction="never" -->
+    <!-- android:title="@string/action_settings"/> -->
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="Logout"/>
+    <item
+        android:id="@+id/action_pinned"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Pinned"/>
+    <!-- <item -->
+    <!-- android:id="@+id/action_hidden" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:showAsAction="never" -->
+    <!-- android:title="Hidden"/> -->
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="About"/>
+
+</menu>

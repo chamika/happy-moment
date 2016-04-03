@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    tools:context="com.chamika.happymoment.activity.MainActivity" >
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/photviewer_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/photoviewer_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/photoviewer_buttons_gradient"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/photoviewer_button_share"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/action_share"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Share"
+            android:textColor="@color/title"
+            android:textSize="@dimen/text_normal_size"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/photoviewer_button_people"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/action_people"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="People"
+            android:textColor="@color/title"
+            android:textSize="@dimen/text_normal_size" />
+
+        <Button
+            android:id="@+id/photoviewer_button_similar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/action_similar"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Similar"
+            android:textColor="@color/title"
+            android:textSize="@dimen/text_normal_size" />
+
+        <Button
+            android:id="@+id/photoviewer_button_different"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/action_different"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Different"
+            android:textColor="@color/title"
+            android:textSize="@dimen/text_normal_size" />
+    </LinearLayout>
+
+</RelativeLayout>
